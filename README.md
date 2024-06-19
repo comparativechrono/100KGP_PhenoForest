@@ -26,6 +26,7 @@ The input dataset should be in a CSV format with specific columns structured as 
 
 Please ensure that your CSV file follows this structure, otherwise the analysis will not work. You can include as many phenotype columns as you like, and there is no naming convention required for these columns.
 
+Please see the brugada_phenotype_data.csv example data in the examples directory.
 
 ## Features
 
