@@ -32,16 +32,11 @@ Please see the `brugada_phenotype_data.csv` example data in the examples directo
 
 ### Random Forest Analysis
 
-- **Model Training:** Trains a Random Forest model to predict conditions based on phenotypes.
-- **Feature Importance:** Identifies and ranks phenotypes based on their importance in predicting the condition using the Mean Decrease Gini index.
-- **Visualization:** Provides a bar chart visualization of the phenotypes ranked by their importance, helping to visually assess which features are most influential.
+For the machine learning we first train a Random Forest model to predict conditions based on phenotypes. Then we identfy and rank phenotypes based on their importance in predicting the condition using the Mean Decrease Gini index. This is visualised in a bar chart visualization of the phenotypes ranked by their importance, helping you to visually assess which features are most influential.
 
 ### Association Rule Mining
 
-- **Rule Generation:** Applies the Apriori algorithm to generate association rules that link combinations of phenotypic traits with specific conditions.
-- **Rule Filtering:** Filters rules to focus on those that are most relevant to the conditions of interest.
-- **Interpretation of Rules:** Extracts and formats the top rules for clarity, displaying support, confidence, and lift metrics to evaluate the strength and relevance of each rule.
-- **Phi Coefficient Analysis:** Explores the phi coefficient as a measure of association between the items in the rules, providing deeper insights into the interactions within the data.
+The script also applies the Apriori algorithm to generate association rules that link combinations of phenotypic traits with specific conditions. The script extracts and formats the top rules for clarity, displaying support, confidence, and lift metrics to evaluate the strength and relevance of each rule. Finally the phi coefficient is used as a measure of association between the items in the rules, hopefully allowing you to visually see how the rules seperate your condition.
 
 ## Usage
 
