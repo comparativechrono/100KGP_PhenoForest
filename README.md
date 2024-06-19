@@ -1,8 +1,7 @@
 # 100KGP_PhenoForest
 This repository contains tools to analyse phenotype associations in the 100,000 genomes project using Random Forests. Currently it contains an R script and a Jupyter notebook. Although the examples provided focus on Brugada syndrome, the tools and methodologies are designed to be applicable to any phenotypic data that follows the required data structure.
 
-![Description of the image](images/phenotree.png)
-
+<img src="images/phenotree.png" alt="Random Forest Data Forest Visualization" width="500">
 
 ## Overview
 
